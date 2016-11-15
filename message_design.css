@@ -1,0 +1,77 @@
+html{
+	background:linear-gradient(rgb(217,195,170),rgb(194,201,213)) center center fixed;
+	background-size:cover;
+}
+body{
+	font-size:20px;
+	font-family:cursive;
+}
+p, input[type="text"],input[type="submit"],input[type="date"],input[type="password"],input[type="file"], select, textarea, button{
+	font-size:20px;
+	font-family:cursive;
+}
+#messageTitle{
+	text-align:center;
+}
+.cent{
+	width:60%;
+	margin-left:auto;
+	margin-right:auto;
+}
+ul li{
+	list-style-type:none;
+	padding-left:20%;
+}
+.msgWith a{
+	text-decoration:none;
+	margin-top:10%;
+	margin-bottom:10%;
+	color:rgb(187, 116, 42);
+	background-color:white;
+}
+.msgWith a:hover{
+	color:green;
+}
+.message{
+	border-radius:10px;
+	width:150px;
+	margin-top:1%;
+}
+.messageLayout{
+	position:relative;
+	margin-bottom:90px;
+}
+.message#send{
+	background-color:yellow;
+	float:right;
+}
+.message#receive{
+	background-color:white;
+	float:left;
+}
+.spacer{
+	clear:both;
+}
+#timeFSend{
+	float:right;
+}
+.bot{
+	bottom:0;
+	position:fixed;
+	width:100%;
+	
+}
+#messageCont{
+	vertical-align:top;
+	height:60px;
+	width:80%;
+	display:inline-block;
+	float:left;
+}
+#sendBtn{
+	background-color:yellow;
+	height:70px;
+	width:17%;
+	display:inline-block;
+	right:0;
+}
